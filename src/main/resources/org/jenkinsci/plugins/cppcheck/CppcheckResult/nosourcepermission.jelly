@@ -1,6 +1,5 @@
 <j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:l="/lib/layout">
     <l:layout title="${%No permission}">
-        <st:include it="${it.owner.project}" page="sidepanel.jelly"/>
         <l:main-panel>
             <h1>${%No valid permission}</h1>
             <p>
