@@ -28,7 +28,6 @@
          xmlns:f="/lib/form" xmlns:i="jelly:fmt">
     <st:header name="Content-Type" value="text/html;charset=UTF-8"/>
     <l:layout norefresh="true">
-        <st:include it="${it.owner}" page="sidepanel.jelly"/>
         <l:main-panel>
             <h1>${%Cppcheck Results}</h1>
 
